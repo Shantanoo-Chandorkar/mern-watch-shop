@@ -1,0 +1,66 @@
+/* ============== REGISTER ============= */
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #d3d3d3;
+  background-image: linear-gradient(0deg, #434343d1, #d3d3d3a5 100%);
+}
+
+.register {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 3rem;
+  background-color: #fff;
+  width: 50%;
+}
+
+.form-container form .title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-family: "Playfair", serif;
+}
+
+.form-container form input {
+  border: none;
+  border-style: none;
+  border-bottom: 2px solid #000;
+  border-radius: 0.5rem;
+}
+
+.form-container form input:focus {
+  border: 2px solid #000;
+  border-radius: 0.5rem;
+  outline: none;
+  outline-style: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.auth-components {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form-container form button {
+  border: 1px solid #232323;
+  border-radius: 5px;
+  background-color: #232323;
+  color: #fff;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.form-container form button:hover {
+  border: 1px solid #232323;
+  border-radius: 5px;
+  background: #232323;
+  background: -webkit-linear-gradient(to right, #434343, #232323);
+  background: linear-gradient(to right, #434343, #232323);
+  color: #fff;
+}

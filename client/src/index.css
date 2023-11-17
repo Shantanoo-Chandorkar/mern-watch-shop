@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair:opsz,wght@5..1200,600;5..1200,700;5..1200,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Playfair', serif; */
+
+/* Navbar CSS */
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: capitalize;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: 0px solid gray !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.nav-link:hover {
+  font-weight: 300 !important;
+  border-bottom: 2px solid black;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+}
+
+/* ============= FOOTER ============= */
+.footer {
+  color: white;
+  padding: 24px;
+  background: #00000000; /* Fallback for old browsers */
+  background: --webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 2px solid #ffefba;
+}
+
+/* ============== CONTACT US ============= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
